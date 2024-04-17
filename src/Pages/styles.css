@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline {
+  height: 240px;
+  width: 3px;
+  background-color: #e5e5e5;
+}
+
+.stub1 {
+  line-height: 200px;
+  font-size: 20px;
+  background-color: #eae4e4;
+}
+
+.stub2 {
+  height: 140px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: -3px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}
+
+.circleWrapper {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  bottom: -180%;
+  left: 0%;
+}

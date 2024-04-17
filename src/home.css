@@ -1,0 +1,35 @@
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #34353a;
+  color: #f9f9f9;
+}
+
+.dark-mode .toggle-button {
+  background-color: transparent;
+  color: #f9f9f9;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dark-mode ::selection {
+  background-color: #f9f9f9;
+  color: #34353a;
+}
+
+/* Light Mode Styles */
+.light-mode {
+  background-color: #f9f9f9;
+  color: #34353a;
+}
+
+.light-mode .toggle-button {
+  background-color: transparent;
+  color: #34353a;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.light-mode ::selection {
+  background-color: #34353a;
+  color: #f9f9f9;
+}
